@@ -1,0 +1,24 @@
+{
+  "name": "json-server-demo",
+  "version": "1.0.0",
+  "description": "fake api for code flutter front end",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "generate-data": "node generate-data.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "ducjk",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.20"
+  }
+}
